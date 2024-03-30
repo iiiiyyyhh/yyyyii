@@ -1,5 +1,7 @@
 name: winsix-sch
-on: [push, workflow_dispatch]
+on:
+  schedule:
+    - cron: '4 */1 * * *' # Run every day at midnight
 jobs:
   build:
 
