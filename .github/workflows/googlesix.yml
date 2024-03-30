@@ -1,4 +1,4 @@
-name: winsix-sch
+name: winsix
 on: [push, workflow_dispatch]
 jobs:
   build:
